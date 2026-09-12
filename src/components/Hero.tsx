@@ -756,13 +756,16 @@ function Hero() {
         id="home"
         onMouseMove={handleMouseMove}
         onMouseLeave={handleMouseLeave}
-        className="
-          relative
-          min-h-[100svh]
-          overflow-x-hidden
-          bg-[#05050d]
-          lg:h-screen
-          lg:overflow-hidden
+       className="
+  relative
+  min-h-[100svh]
+  scroll-mt-[72px]
+  overflow-x-hidden
+  bg-[#05050d]
+  lg:mt-[72px]
+  lg:h-screen
+  lg:min-h-0
+  lg:overflow-hidden
         "
       >
         {/* =====================================================
