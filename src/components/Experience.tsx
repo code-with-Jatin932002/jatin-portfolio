@@ -22,7 +22,7 @@ const experiences: Experience[] = [
   {
     role: 'MERN Developer',
     company: 'SourceryIT',
-    date: 'Dec 2024 - Mar 2025',
+    date: 'Mar 2025 - Present',
     location: 'Noida',
     side: 'left',
     color: 'cyan',
