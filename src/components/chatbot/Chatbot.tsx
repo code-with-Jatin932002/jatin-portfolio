@@ -4,7 +4,7 @@ import { useState } from "react";
 import { MessageCircle, X } from "lucide-react";
 import ChatWindow, { type Message } from "./ChatWindow";
 
-const API_URL = "http://localhost:5000/api/chat";
+const API_URL = "https://portfolio-backend-vzbg.onrender.com/api/chat";
 
 const Chatbot = () => {
   const [isOpen, setIsOpen] = useState(false);
