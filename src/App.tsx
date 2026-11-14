@@ -1,9 +1,11 @@
+
 import {
   useCallback,
   useEffect,
   useLayoutEffect,
   useState,
 } from 'react'
+
 import {
   BrowserRouter,
   Route,
@@ -14,6 +16,7 @@ import {
 import PageLoader from './components/PageLoader'
 import Home from './pages/Home'
 import ProjectDetails from './pages/ProjectDetails'
+import Chatbot from './components/chatbot/Chatbot'
 
 function ScrollManager() {
   const location = useLocation()
@@ -96,6 +99,10 @@ function App() {
           element={<ProjectDetails />}
         />
       </Routes>
+
+      {/* AI Portfolio Chatbot - Available on all routes */}
+      <Chatbot />
+
     </BrowserRouter>
   )
 }
